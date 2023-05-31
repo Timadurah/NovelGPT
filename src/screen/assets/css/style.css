@@ -1,0 +1,151 @@
+/* root */
+/* reuseClass */
+/* header partern */
+/* sidebar */
+/* Main */
+/* Main firstChild */
+/* Main Balance card */
+/* PaymentLimitChild loading */
+/* Main last-Chaild */
+/* bootom nav */
+/* mobile view rpofile */
+
+body {
+  font-family: monospace;
+}
+.small{
+  font-size: 10px;
+}
+:root {
+  --black: #000000;
+}
+.styleScrollX {
+  overflow-x: scroll;
+}
+.styleScrollY{
+  overflow-y: scroll;
+}
+
+.textty{
+  outline: none;
+}
+
+/* text scroll */
+.textty::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+
+.textty::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.textty::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: inset 0 0 5px rgb(0, 0, 0);
+}
+
+
+/* files ai done */
+.dones::-webkit-scrollbar {
+  width: 7px;
+}
+
+.dones::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.dones::-webkit-scrollbar-thumb {
+  background: rgb(111, 111, 111);
+  border-radius: 10px;
+  box-shadow: inset 0 0 5px rgb(226, 226, 226);
+}
+
+.headerPartern {
+  width: 100%;
+  height: 15vh;
+  background: url("../images/tobg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sidebar {
+  width: 5%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: white;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+}
+
+.sidebar > div {
+  width: 70%;
+  text-align: center;
+}
+
+.sidebar .owner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sidebar .owner .profile {
+  background-image: url("../images/logo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+.sidebar .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sidebar .links > a {
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: gray;
+  display: flex;
+}
+
+
+
+.main {
+  background-image: url("../images/partern.png");
+  background-repeat: no-repeat;
+  background-size: 100% ;
+  background-attachment: fixed;
+  background-position: bottom right;
+  width: 95%;
+  height: 100vh;
+  background-color: white;
+  
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  
+}
+
+.main .mainprofile
+{
+  display: flex;
+  align-items: center;
+  height: 15%;
+}
+.bottomNav {
+  display: none;
+}
+
+.mbprofile {
+  display: none;
+}
